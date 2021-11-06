@@ -1,0 +1,10 @@
+name: haskell-hello-world
+version: 0.0.1
+
+executables:
+  haskell-hello-world-exe:
+    main: Main.hs
+    source-dirs: src
+
+dependencies:
+  - base >= 4.0.0
