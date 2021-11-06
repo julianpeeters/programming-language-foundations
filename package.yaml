@@ -1,8 +1,8 @@
-name: haskell-hello-world
+name: programming-language-foundations
 version: 0.0.1
 
 executables:
-  haskell-hello-world-exe:
+  programming-language-foundations-exe:
     main: Main.hs
     source-dirs: src
 
