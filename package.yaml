@@ -1,0 +1,18 @@
+name: programming-language-foundations
+version: 0.0.1
+
+executables:
+  pfl-exe:
+    main: Main.hs
+    source-dirs: src
+    dependencies: programming-language-foundations
+
+dependencies:
+  - base >= 4.0.0
+  - containers
+  - mtl
+  - parsec
+  - resourcet
+
+library:
+  source-dirs: Ch05_Untyped
